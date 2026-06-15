@@ -1,0 +1,37 @@
+{
+  "name": "Agenda AI — Sergio",
+  "short_name": "Agenda AI",
+  "description": "Assistente personale AI con agenda, contabilità e integrazione Google",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%231a1a2e'/><text y='130' x='96' font-size='110' text-anchor='middle'>🗓️</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%231a1a2e'/><text y='360' x='256' font-size='300' text-anchor='middle'>🗓️</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["productivity", "finance", "education"],
+  "shortcuts": [
+    {
+      "name": "Nuova voce",
+      "short_name": "Aggiungi",
+      "description": "Aggiungi evento o transazione",
+      "url": "/index.html#add"
+    },
+    {
+      "name": "AI Chat",
+      "short_name": "Chat AI",
+      "description": "Parla con l'assistente AI",
+      "url": "/index.html#chat"
+    }
+  ]
+}
